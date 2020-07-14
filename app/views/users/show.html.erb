@@ -11,7 +11,7 @@
 </p>
 <p>
   <strong>microposts:</strong>
-  <%= @user.microposts %>
+  <%= @user.microposts.first.content %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
